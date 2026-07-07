@@ -91,4 +91,4 @@ class Product:
         self._price = value
 
     def display_info(self):
-        return f"[Product] {self.name} — ${self._price:.2f}, Stock: {self.stock}"
+        return f"[Product] ID: {self.product_id}, {self.name} — ${self._price:.2f}, Stock: {self.stock}"
